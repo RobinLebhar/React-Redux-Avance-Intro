@@ -3,7 +3,7 @@
 + ```npm install```
 + ```npm start```
 
-Si vous souhaitez le faire vous meme
+Si vous souhaitez le faire vous nême
 
 + ```npm install react-create-app```
 
