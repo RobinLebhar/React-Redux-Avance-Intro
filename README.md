@@ -1,6 +1,12 @@
-# Ce qui à été fait dans cette branche :
+# Starter React V16 + Redux
 
-+ Ajout d'une action et d'un reducer "authentification" pour modifier l'etat isLoggedIn dans le store.
-+ Affichage conditionnel de "connexion" ou "deconnexion" selon l'état de isLoggedIn dans le container "header"
-+ Ajout du reducer dans le root reducer ( index des reducers )
-+ Ajout d'un action type pour l'authentification 
++ ```npm install```
++ ```npm start```
+
+Si vous souhaitez le faire vous meme
+
++ ```npm install react-create-app```
+
++ ```npm create-react-app votre-nom-d-app```
++ ```cd votre-nom-d-app ```
++ ```npm start```
