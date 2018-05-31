@@ -3,7 +3,7 @@
 + ```npm install```
 + ```npm start```
 
-Si vous souhaitez le faire vous nême
+Si vous souhaitez générer votre app vous même il vous faudra juste node avec une version >=6 et npm puis :
 
 + ```npm install react-create-app```
 
