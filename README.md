@@ -1,5 +1,6 @@
-# Ce qui à été fait dans cette branche :
+# Ce qui a été fait dans cette branche
 
-+ Mise en place des routes dans app et index.js
-+ création de Home
-+ Mise en place des routes dans le Header
+
++ Ajout du dossier helpers avec dedans un composant RequireAuthentification
++ Require Authentification est un HOC qui permet de rediriger l'utilisateur vers l'accueil si non connecté et en cas de déconnexion
++ Utilisation de RequireAuthentification dans App dans la route qui render les Ressources
