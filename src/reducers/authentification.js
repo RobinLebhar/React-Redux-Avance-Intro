@@ -5,13 +5,15 @@ import {
 const initialState = {
     isLoggedIn: false
 }
-export default function setAuthentification(state = initialState, action) {
+export default function AuthentificationReducer(state = initialState, action) {
     switch (action.type) {
         case SET_AUTHENTIFICATION:
             return {
                 isLoggedIn: action.payload
             }
         default:
-            return state
+            return state;
+
     }
+
 }
