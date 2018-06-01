@@ -6,7 +6,8 @@ import thunk from "redux-thunk";
 import App from "./components/app";
 import reducers from "./reducers";
 import { BrowserRouter } from "react-router-dom";
-const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
+import { actionLogger } from "../src/middlewares/action-logger"
+const createStoreWithMiddleware = applyMiddleware(thunk, actionLogger)(createStore);
 ReactDOM.render(
   <Provider
     store={createStoreWithMiddleware(
