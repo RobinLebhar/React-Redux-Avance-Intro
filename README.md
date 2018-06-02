@@ -1,12 +1,10 @@
 # Ce qui a été fait dans cette branche
 
 
-Création d'un middleware asynchronous-logger dans le dossier middleware, qui log les actions et dispatch une action qui permet d'incrémenter le nombre d'actions lancées
-
-+ Création d'une action incrementActionCount
-+ Ajout d'un reducer action-info.js avec une fonction incrementActionCount
-+ Ajout du reducer au root reducer
-+ Ajout d'un type
-+ Ajout du reducer dans le root reducer.
-+ Ajout du middleware pour compter les action
-+ Appel du middleware dans index
++ Création d'un test simple
++ npm install --save enzyme enzyme-adapter-react-16 ( faire matcher ce nombre avec votre version de react)
++ Ajout de src/setupTests.js pour la configuration d'enzyme ( le nom doit etre exactement celui ci), puis relancer
++ Explication du shallow : celui ci permet du test unitaire pure, contrairement au Render, lui ne déclenchera pas d'erreur si un des composants enfants tombe en erreur
++ Doc enzyme : http://airbnb.io/enzyme/docs/api/#
++ Explication du beforeEach
++ le mount contrairement au shallow, contient tout le dom enfants inclus, donc plusieurs test peuvent s'affecter les uns les autres s'ils partagent le meme dom

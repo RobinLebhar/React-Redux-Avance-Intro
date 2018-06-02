@@ -23,7 +23,6 @@ export default class TodoApp extends Component {
 
         return (
             <div>
-
                 <div className="row justify-content-center">
                     <fieldset className="col-md-10 form-group">
                         <label htmlFor="inputTodo" className="bmd-label-floating">Nouvelle tâche</label>
@@ -37,7 +36,6 @@ export default class TodoApp extends Component {
                 </div>
 
                 <div className="row">
-
                     {this.renderTodoList()}
 
                 </div>
