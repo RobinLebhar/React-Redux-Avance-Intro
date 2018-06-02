@@ -1,10 +1,15 @@
 # Ce qui a été fait dans cette branche
 
++ npm install lodash
++ npm install reselect
++ npm install redux-immutable-state-invariant
 
-+ Ajout d'un test pour le composant header
-+ Crash du test de rendering sur ce composant connecté
-+ Création d'un composant RootTest pour renderer des composant connecté
-+ Multiple tests sur un composant connecté
-+ test des action et des reducers
-+ test d'integration
-+ https://facebook.github.io/jest/docs/en/getting-started.html
++ Ajout du container ressources
++ Ajout de selecteurs + root reducer
++ Ajout d'une action et action-type
++ Remplacement dans les routes de TodoApp par Ressources
++ Configuration de redux-immutable-state-invariant dans index.js
+
+
+
+
