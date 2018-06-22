@@ -13,8 +13,8 @@
     "react-scripts": "1.1.4",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "redux-immutable-state-invariant": "^2.1.0"
-
+    "redux-immutable-state-invariant": "^2.1.0",
+    "reselect": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
