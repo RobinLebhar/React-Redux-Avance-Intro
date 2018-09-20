@@ -1,12 +1,12 @@
-# Starter React V16 + Redux
+# Ce qui a été fait dans cette branche
 
-+ ```npm install```
-+ ```npm start```
 
-Si vous souhaitez générer votre app vous même il vous faudra juste node avec une version >=6 et npm puis :
-+ ```npm install -g npx```
-+ ```npm install -g react-create-app```
-+ ```npx create-react-app votre-nom-d-app```
+Création d'un middleware asynchronous-logger dans le dossier middleware, qui log les actions et dispatch une action qui permet d'incrémenter le nombre d'actions lancées
 
-+ ```cd votre-nom-d-app ```
-+ ```npm start```
++ Création d'une action incrementActionCount
++ Ajout d'un reducer action-info.js avec une fonction incrementActionCount
++ Ajout du reducer au root reducer
++ Ajout d'un type
++ Ajout du reducer dans le root reducer.
++ Ajout du middleware pour compter les action
++ Appel du middleware dans index
